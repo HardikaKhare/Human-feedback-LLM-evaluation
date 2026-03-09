@@ -51,7 +51,6 @@ human-feedback-llm/
 ├── models/
 │   └── generator.py
 │
-├── requirements.txt
 ├── README.md
 └── .gitignore
 ```
@@ -62,6 +61,7 @@ human-feedback-llm/
 
 | Method | Endpoint | Description |
 |------|------|------|
+| GET | `/` | Check if the API is running |
 | POST | `/generate` | Generate multiple responses for a prompt |
 | GET | `/responses/{prompt_id}` | Retrieve responses for a prompt |
 | POST | `/select` | Select the best response (human feedback) |
